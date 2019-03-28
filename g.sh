@@ -1,3 +1,6 @@
+command_not_found_handle() {
+        /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+}
 echo -e '\033[91m'
 cat ../usr/etc/g1
 echo -e '''
