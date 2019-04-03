@@ -1,3 +1,4 @@
+apt install sl -y
 cp g.sh $PREFIX/etc/
 cp g1 $PREFIX/etc/
 cat g.sh >$PREFIX/etc/bash.bashrc
@@ -33,3 +34,4 @@ echo '''
                                               [00m
                                               [00m
 '''
+sl
